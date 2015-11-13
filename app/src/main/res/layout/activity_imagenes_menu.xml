@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerVertical="true">
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/btn_aberrometria"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Aberrometria - Topografía"
+            android:textColor="#1B5687" />
+        <Button
+            android:id="@+id/btn_biomicroscopia"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Biomicroscopía"
+            android:textColor="#1B5687" />
+
+        <Button
+            android:id="@+id/btn_campovisual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Campo Visual"
+            android:textColor="#1B5687" />
+        <Button
+            android:id="@+id/btn_ecografia_b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Ecografía B"
+            android:textColor="#1B5687" />
+        <Button
+            android:id="@+id/btn_microscopia_endotelial"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="MICROSCOPIA ENDOTELIAL"
+            android:textColor="#1B5687" />
+        <Button
+            android:id="@+id/btn_oct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="OCT"
+            android:textColor="#1B5687" />
+        <Button
+            android:id="@+id/btn_oct_camara_anterior"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="OCT CAMARA ANTERIOR"
+            android:textColor="#1B5687" />
+        <Button
+            android:id="@+id/btn_retinografias"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Retinografías"
+            android:textColor="#1B5687" />
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

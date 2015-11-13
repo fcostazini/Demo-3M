@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demo-3M</string>
+    <string name="title_activity_imagenes_menu">ImagenesMenu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_video_selection">VideoSelectionActivity</string>
+    <string name="title_activity_image_carroucel">Visualización</string>
+</resources>
