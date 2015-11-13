@@ -51,13 +51,40 @@ public class ImagenesMenu extends Activity {
         btnEcografia.setOnClickListener(new ClickHandler(imagenes));
 
         Button btnMicroscopia = (Button)findViewById(R.id.btn_microscopia_endotelial);
-
+        imagenes = new int[]{R.drawable.microscopia_1};
         btnMicroscopia.setOnClickListener(new ClickHandler(imagenes));
+
         Button btnOct = (Button)findViewById(R.id.btn_oct);
+        imagenes = new int[]{R.drawable.oct_1,
+                R.drawable.oct_2,
+                R.drawable.oct_3,
+                R.drawable.oct_4,
+                R.drawable.oct_5,
+                R.drawable.oct_6,
+                R.drawable.oct_7,
+                R.drawable.oct_8,
+                R.drawable.oct_9,
+                R.drawable.oct_10,
+                R.drawable.oct_11,
+                R.drawable.oct_12,
+                R.drawable.oct_13};
         btnOct.setOnClickListener(new ClickHandler(imagenes));
+
         Button btnOctCamara = (Button)findViewById(R.id.btn_oct_camara_anterior);
+        imagenes = new int[]{R.drawable.oct_camara_anterior_1,
+                R.drawable.oct_camara_anterior_2,
+                R.drawable.oct_camara_anterior_3
+       };
         btnOctCamara.setOnClickListener(new ClickHandler(imagenes));
+
         Button btnRetinografias = (Button)findViewById(R.id.btn_retinografias);
+        imagenes = new int[]{R.drawable.retinografia_1,
+                R.drawable.retinografia_2,
+                R.drawable.retinografia_3,
+                R.drawable.retinografia_4,
+                R.drawable.retinografia_5,
+                R.drawable.retinografia_6
+        };
         btnRetinografias.setOnClickListener(new ClickHandler(imagenes));
 
     }
